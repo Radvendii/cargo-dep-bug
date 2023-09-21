@@ -1,0 +1,9 @@
+[package]
+name = "bar"
+version = "0.0.1"
+
+[lib]
+bench = false
+
+[dependencies]
+dep.workspace = true

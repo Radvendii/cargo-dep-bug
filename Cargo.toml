@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "foo",
+    "bar",
+    "dep",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.0.1"
+
+[workspace.dependencies]
+dep = { path = "./dep", version = "0.0.1" }
